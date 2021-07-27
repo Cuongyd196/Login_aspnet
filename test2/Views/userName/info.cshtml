@@ -1,0 +1,12 @@
+﻿@model test2.Models.userName
+@{
+    ViewBag.Title = "info";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var u = Session["user"] as test2.Models.userName;
+
+}
+
+    <h2>
+        Chúc mừng bạn đã đăng nhập thành công
+    </h2>
+
